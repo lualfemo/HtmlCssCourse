@@ -1,7 +1,27 @@
-
+html, body{
+    height: 100%;
+}
 h1 {
     color: rgb(99, 99, 206);
     text-decoration: underline;
     font-size: 50px;
 
+}
+
+ol > li{
+    margin-top: 50px ;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    border: 1px blue solid    ;
+    
 }
