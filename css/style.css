@@ -38,3 +38,8 @@ img {
     height: 50px;
     margin-left: 5px;
 }
+
+#image-super {
+    width: 600px;
+    height: 300px;
+}
