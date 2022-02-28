@@ -1,5 +1,7 @@
 html, body{
     height: 100%;
+    margin: 0;
+    padding: 0; 
 }
 h1 {
     color: rgb(99, 99, 206);
@@ -9,7 +11,7 @@ h1 {
 }
 
 ol > li{
-    margin-top: 50px ;
+    margin-top: 30px ;
     margin-bottom: 30px;
     justify-content: center;
     align-content: flex-end;
