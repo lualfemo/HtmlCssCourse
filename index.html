@@ -41,19 +41,33 @@
         <video src="https://i.imgur.com/nGnWzDV.mp4" controls preload="auto"></video>
       </section>      
       <form action="">
+        <fieldset>
+          <legend>Formulario dia de Compras</legend>
         <label for="nombre">
           <span>¿Cual es tu nombre?</span>
-          <input type="text" id="nombre" placeholder="Escribe tu nombre">
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
         </label>
         <label for="fecha">
           <span>¿Que día vas a ir de compras?</span>
-          <input type="date" id="fecha">
+          <input type="date" id="fecha" name="fecha">
         </label>
         <label for="hora">
           <span>¿A que hora?</span>
-          <input type="time" id="hora">
+          <input type="time" id="hora" name="hora">
         </label>
-      </form>     
+        <input type="submit">
+      </fieldset>
+      </form>
+      <form action="">
+        <fieldset>
+          <legend>Calendario más detallado</legend><br>             
+        <label for="calendario">
+          <input type="datetime-local" id="calendario" name="calendario">
+        </label>
+        <input type="submit">
+      </fieldset>
+      </form>
+      
     </div>
   </body>
 </html>
