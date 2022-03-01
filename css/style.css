@@ -43,3 +43,13 @@ img {
     width: 600px;
     height: 300px;
 }
+
+form {
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+input{
+    margin-right: 10px;
+}
