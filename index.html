@@ -41,19 +41,55 @@
         <video src="https://i.imgur.com/nGnWzDV.mp4" controls preload="auto"></video>
       </section>      
       <form action="">
+        <fieldset>
+          <legend>Formulario dia de Compras</legend>
         <label for="nombre">
           <span>¿Cual es tu nombre?</span>
           <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
         </label>
         <label for="fecha">
           <span>¿Que día vas a ir de compras?</span>
-          <input type="date" id="fecha" name="fecha" >
+          <input type="date" id="fecha" name="fecha">
         </label>
         <label for="hora">
           <span>¿A que hora?</span>
           <input type="time" id="hora" name="hora">
         </label>
-      </form>     
+        <input type="submit">
+      </fieldset>
+      </form>
+      <form action="">
+        <fieldset>
+          <legend>Calendario más detallado</legend><br>             
+        <label for="calendario">
+          <input type="datetime-local" id="calendario" name="calendario">
+        </label>
+        <input type="submit">
+      </fieldset>
+      </form>
+      <!-- Formulario para practicar las validaciones -->
+      <form action="">
+        <fieldset>
+          <legend>Formulario Residencia</legend>
+        <label for="nombre">
+          <span>¿Cual es tu nombre?</span>
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" autocomplete="name" required>
+        </label><br><br>
+        <label for="email">
+          <span>Email</span>
+          <input type="email" id="email" name="email" autocomplete="email" required placeholder="example@gmail.com">
+        </label><br><br>
+        <label for="pais">
+          <span>Pais de residencia</span>
+          <input type="text" id="pais" name="pais" autocomplete="country" required placeholder="Tu pais">
+        </label><br><br>
+        <label for="cp">
+          <span>Codigo postal</span>
+          <input type="text" id="cp" name="cp" autocomplete="postal-code" required placeholder="Num codigo postal">
+        </label><br><br>
+        <input type="submit" value="Enviar formulario">
+      </fieldset>
+      </form>      
     </div>
   </body>
 </html>

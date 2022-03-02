@@ -48,7 +48,11 @@ form {
     padding: 5px;
     margin-top: 15px;
     margin-bottom: 15px;
+<<<<<<< HEAD
     border: 1px solid rgb(0, 0, 0);
+=======
+    
+>>>>>>> f89ce778ed031f959a122291eadf88e109f2f9a3
 }
 input{
     margin-right: 10px;
