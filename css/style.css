@@ -1,7 +1,11 @@
 html, body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100%;
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    background-image: url("https://i.imgur.com/uQh1khq.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -16,11 +20,15 @@ ol > li{
     margin-bottom: 30px;
     justify-content: center;
     align-content: flex-end;
-}
+    color: rgba(139, 216, 210, 0.705);
+    font-size: 30px;
+}   
 
 ul > li{
     margin-top: 15px;
     margin-bottom: 15px;
+    font-size: 20px;
+
 }
 
 #content {
@@ -48,12 +56,14 @@ form {
     padding: 5px;
     margin-top: 15px;
     margin-bottom: 15px;
-<<<<<<< HEAD
-    border: 1px solid rgb(0, 0, 0);
-=======
-    
->>>>>>> f89ce778ed031f959a122291eadf88e109f2f9a3
+    color: rgba(139, 216, 210, 0.705);
+    font-size: 20px;
 }
+
 input{
     margin-right: 10px;
+}
+
+h2 {
+    color: rgba(139, 216, 210, 0.705);
 }
