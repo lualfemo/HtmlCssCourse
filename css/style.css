@@ -1,13 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 html, body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
     background-image: url("https://drive.google.com/uc?export=view&id=1dYVSvvWHNtgoagE60_DW1tJm6w6aSazF");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-		background-color: black;
+    background-color: black;
 }
 
 h1 {
